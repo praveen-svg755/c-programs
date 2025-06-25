@@ -2,9 +2,9 @@
 int main(){
    int num;
    scanf("%d",&num);
-   for(int row=1;row<=num;row++)
+   for(int row=1 ; row <= num ; row++)
     {
-      for(int int col=1;col<=num;col++)
+      for(int col=1 ; col <= num ; col++)
 	{
 	  printf("*");
 	}
@@ -13,7 +13,7 @@ int main(){
     return 0;
 }
 
-
+/*
 OUTPUT:
   5
 
@@ -22,3 +22,4 @@ OUTPUT:
 *****
 *****
 *****
+*/
